@@ -845,7 +845,8 @@ let NintexSamplegrid = _decorate([e$2('nintex-grid')], function (_initialize, _L
             },
             Data: {
               type: 'string',
-              title: 'Data to be rendered in the grid'
+              title: 'Data to be rendered in the grid',
+              description: 'sample input- [{"name": "1","email": "Sam","phoneNumber": "32"},{"name": "2","email": "tom","phoneNumber": "22"},{"name": "3","email": "mina","phoneNumber": "25"}]'
             }
           }
         };
